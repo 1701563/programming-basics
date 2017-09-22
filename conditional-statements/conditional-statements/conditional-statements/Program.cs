@@ -14,19 +14,14 @@ namespace conditional_statements
             Console.Write("Syötä luku: ");
             string userInput;
             userInput = Console.ReadLine();
-
             int evaluatedNumber;
             int.TryParse(userInput, out evaluatedNumber);
-
-            if (evaluatedNumber < 0)
-            {
-                Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen")
-            }
-            else if (evaluatedNumber > 0)
-                }
-            Console.WriteLine("Syötit arvon {0}",userInput);        // Versio1
+            if (evaluatedNumber > 0) Console.WriteLine($"Numero {evaluatedNumber} on positiivinen");
+            else if (evaluatedNumber < 0) Console.WriteLine($"Numero {evaluatedNumber} on negatiivinen");
+            else Console.WriteLine("Numero on nolla");
+/*        Console.WriteLine("Syötit arvon {0}",userInput);        // Versio1
             Console.WriteLine($"Syötit arvon {userInput}");         // Versio2
-            Console.WriteLine("Syötit arvon " + userInput);         // Tia-versio
+            Console.WriteLine("Syötit arvon " + userInput);         // Tia-versio */
             Console.ReadKey();
 
         }
