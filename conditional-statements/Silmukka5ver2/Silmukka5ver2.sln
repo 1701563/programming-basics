@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silmukka5ver2", "Silmukka5ver2\Silmukka5ver2.csproj", "{CBB29D79-B24B-44A2-86B0-E9E76D49D0C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBB29D79-B24B-44A2-86B0-E9E76D49D0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB29D79-B24B-44A2-86B0-E9E76D49D0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB29D79-B24B-44A2-86B0-E9E76D49D0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB29D79-B24B-44A2-86B0-E9E76D49D0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

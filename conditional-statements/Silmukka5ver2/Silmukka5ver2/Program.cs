@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Silmukka3
+namespace Silmukka5ver2
 {
     class Program
     {
@@ -17,15 +17,15 @@ namespace Silmukka3
             int i = 0;
             int evenSum = 0, oddSum = 0;
             if (number > 0)
-            do
-            {
-                if (i % 2 == 0)
-                    evenSum += i;
-                else
-                    oddSum += i;
-                i = i + 1;
-            }
-            while (i <= number);
+                do
+                {
+                    if (i % 2 == 0)
+                        evenSum += i;
+                    else
+                        oddSum += i;
+                    i = i + 1;
+                }
+                while (i <= number);
 
             else
                 do
